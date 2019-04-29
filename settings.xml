@@ -122,13 +122,13 @@ under the License.
     -->
     <server>
       <id>nexus-snapshot</id>
-      <username>deployment</username>
-      <password>deploy</password>
+      <username>jenkins</username>
+      <password>jenkins</password>
     </server>
    <server>
       <id>nexus-release</id>
-      <username>deployment</username>
-      <password>deploy</password>
+      <username>jenkins</username>
+      <password>jenkins</password>
     </server>
    <server>
       <id>aws-release</id>
