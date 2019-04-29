@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.qmetry</groupId>
 	<artifactId>testng-java-example</artifactId>
-	<version>0.0.11-SNAPSHOT</version>
+	<version>0.0.12-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>testng-demo</name>
 	<url>http://maven.apache.org</url>
@@ -128,7 +128,7 @@
 	<distributionManagement>
       <repository>
       <id>nexus-release</id>
-     <url>http://ec2-54-169-157-165.ap-southeast-1.compute.amazonaws.com:8081/nexus/content/repositories/nexus-release</url>
+     <url>http://ec2-54-169-157-165.ap-southeast-1.compute.amazonaws.com:8081/nexus/content/repositories/releases</url>
       </repository>
         <snapshotRepository>
             <id>nexus-snapshot</id>
